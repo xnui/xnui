@@ -1,0 +1,44 @@
+{
+  "name": "xnui",
+  "version": "0.1.0",
+  "main": "./dist/xnui.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lib": "vue-cli-service build --target lib --name xnui  ./src/packages/index.js",
+    "commit": "git add . && git-cz"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "keywords": [
+    "xnui",
+    "vue",
+    "components"
+  ],
+  "author": "xn213",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-unit-mocha": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/test-utils": "^1.0.3",
+    "chai": "^4.1.2",
+    "commitizen": "^4.2.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
