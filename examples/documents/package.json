@@ -1,0 +1,26 @@
+{
+  "name": "xnui-documents",
+  "version": "1.0.0",
+  "description": "xnui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run docs:build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  },
+  "dependencies": {
+    "core-js": "^2.6.11",
+    "element-ui": "^2.13.2",
+    "highlight.js": "^10.1.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.1"
+  }
+}
