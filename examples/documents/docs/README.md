@@ -3,8 +3,14 @@ home: true
 actionText: Read More →
 actionLink: /components/button
 features:
+- title:
+  details:
+
 - title: 搭建自己的组件库
   details: 基于 vue 从 0 搭建自己的组件库
+
+- title:
+  details:
 
 footer: MIT Licensed | Copyright © 2019-present xn213 | Just for Learning Reference
 ---

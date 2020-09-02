@@ -10,19 +10,23 @@ module.exports = {
     nav: [
       {
         text: '指南',
-        link: '/guide',
+        link: '/guide/steps',
+      },
+      {
+        text: '组件',
+        link: '/components/button',
       },
       {
         text: '配置',
-        link: '/setting'
+        link: '/setting/'
       },
       {
         text: '插件',
-        link: '/plugins'
+        link: '/plugins/'
       },
       {
         text: '主题',
-        link: '/themes'
+        link: '/themes/'
       },
       {
         text: 'GitHub',
@@ -31,8 +35,18 @@ module.exports = {
     ],
     // 为以下路由添加侧边栏
     sidebar: {
+      '/guide/': [
+        {
+          title: 'steps',
+          collapsable: false,
+          children: [
+            '/guide/steps'
+          ]
+        }
+      ],
       '/components/': [
         {
+          title: 'Components',
           collapsable: true,
           children: ['button'],
         },
