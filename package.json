@@ -1,7 +1,14 @@
 {
   "name": "xnui",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": false,
+  "keywords": [
+    "xnui",
+    "vue",
+    "components"
+  ],
+  "author": "xn213",
+  "license": "MIT",
   "main": "./dist/xnui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -14,13 +21,6 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
-  "keywords": [
-    "xnui",
-    "vue",
-    "components"
-  ],
-  "author": "xn213",
-  "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
     "@vue/cli-plugin-unit-mocha": "^4.5.0",

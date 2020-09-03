@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         text: '组件',
-        link: '/components/button',
+        link: '/components/basic/button',
       },
       {
         text: '配置',
@@ -46,9 +46,41 @@ module.exports = {
       ],
       '/components/': [
         {
-          title: 'Components',
-          collapsable: true,
-          children: ['button'],
+          title: 'basic',
+          collapsable: false,
+          children: [
+            '/components/basic/layout',
+            '/components/basic/container',
+            '/components/basic/button',
+            '/components/basic/icon'
+          ],
+        },
+        {
+          title: 'form',
+          collapsable: false,
+          children: [
+            '/components/form/input',
+            '/components/form/switch',
+            '/components/form/upload',
+            '/components/form/datepicker'
+          ],
+        },
+        {
+          title: 'data',
+          collapsable: false,
+          children: [
+            '/components/data/progress',
+            '/components/data/table'
+          ],
+        },
+        {
+          title: 'others',
+          collapsable: false,
+          children: [
+            '/components/others/infinitescroll',
+            '/components/others/popover',
+            '/components/others/carousel',
+          ],
         },
       ],
     },

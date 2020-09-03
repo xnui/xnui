@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Read More →
-actionLink: /components/button
+actionLink: /components/
 features:
 - title:
   details:

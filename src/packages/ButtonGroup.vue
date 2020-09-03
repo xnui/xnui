@@ -8,19 +8,18 @@
 export default {
   name: "xn-button-group",
   mounted() {
-    let children = this.$el.children
+    let children = this.$el.children;
     // console.log('children', children)
     for (let i = 0; i < children.length; i++) {
       // console.log('tagName', children[i].tagName)
-      console.assert(children[i].tagName === 'BUTTON', '子节点必须为 button')
+      console.assert(children[i].tagName === "BUTTON", "子节点必须为 button");
     }
-
   },
 };
 </script>
 
 <style lang="scss">
-@import '../styles/common';
+@import "../styles/common";
 
 .xn-button-group {
   display: inline-flex;

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <xn-button icon="edit">编辑</xn-button>
-    <xn-button icon="edit"></xn-button>
+    <xn-button icon="pencil">编辑</xn-button>
+    <xn-button icon="pencil"></xn-button>
   </div>
 </template>
