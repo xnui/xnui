@@ -12,7 +12,7 @@ npm install @xn213/xnui -S
 ``` javascript
 import Vue from 'vue'
 import xnui from '@xn213/xnui'
-import '@xn213/xnui.css'
+import '@xn213/xnui/dist/@xn213/xnui.css'
 
 Vue.use(xnui)
 
