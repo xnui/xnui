@@ -1588,6 +1588,14 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@xn213/xnui@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.npm.taobao.org/@xn213/xnui/download/@xn213/xnui-2.1.1.tgz?cache=0&sync_timestamp=1599133516672&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40xn213%2Fxnui%2Fdownload%2F%40xn213%2Fxnui-2.1.1.tgz#dcdad16b21b6bc4cb76243146bbcbda68932fe30"
+  integrity sha1-3NrRayG2vEy3YkMUa7y9poky/jA=
+  dependencies:
+    core-js "^3.6.5"
+    vue "^2.6.11"
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/@xtuc/ieee754/download/@xtuc/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"

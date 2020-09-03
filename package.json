@@ -1,6 +1,6 @@
 {
-  "name": "xnui",
-  "version": "1.1.0",
+  "name": "@xn213/xnui",
+  "version": "2.1.3",
   "private": false,
   "keywords": [
     "xnui",
@@ -9,15 +9,16 @@
   ],
   "author": "xn213",
   "license": "MIT",
-  "main": "./dist/xnui.umd.min.js",
+  "main": "./dist/@xn213/xnui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lib": "vue-cli-service build --target lib --name xnui  ./src/packages/index.js",
+    "lib": "vue-cli-service build --target lib --name @xn213/xnui  ./src/packages/index.js",
     "commit": "git add . && git-cz"
   },
   "dependencies": {
+    "@xn213/xnui": "^2.1.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },

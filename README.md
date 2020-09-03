@@ -1,24 +1,36 @@
 # xnui
 
-## Project setup
-```
-yarn install
+> A Vue.js 2.0 UI Toolkit for Web.
+
+## Install
+
+```shell
+npm install @xn213/xnui -S
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+## Quick Start
+``` javascript
+import Vue from 'vue'
+import xnui from '@xn213/xnui'
+import '@xn213/xnui.css'
+
+Vue.use(xnui)
+
+// or
+import {
+  Icon,
+  Button
+  // ...
+} from 'xnui'
+
+Vue.component(Icon.name, Icon)
+Vue.component(Button.name, Button)
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+For more information, please refer to [Quick Start](//components/quickstart) in our documentation.
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## Browser Support
+Modern browsers and Internet Explorer 10+.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Development
+
