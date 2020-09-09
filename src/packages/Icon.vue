@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// import "../styles/iconfont-xnui-initial";
+import "../styles/iconfont-xnui-initial";
 export default {
   name: "xn-icon",
   props: {
