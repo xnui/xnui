@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Table 表格 | xnui</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="搭建私有 ui 库 ing">
+    <link rel="preload" href="/xnui/assets/css/0.styles.0796cc10.css" as="style"><link rel="preload" href="/xnui/assets/js/app.e105d4ed.js" as="script"><link rel="preload" href="/xnui/assets/js/2.1c64c2ca.js" as="script"><link rel="preload" href="/xnui/assets/js/18.ed4c7410.js" as="script"><link rel="prefetch" href="/xnui/assets/js/10.4ee427d6.js"><link rel="prefetch" href="/xnui/assets/js/11.b374ab31.js"><link rel="prefetch" href="/xnui/assets/js/12.46c7a35c.js"><link rel="prefetch" href="/xnui/assets/js/13.94753bcc.js"><link rel="prefetch" href="/xnui/assets/js/14.140fe2e7.js"><link rel="prefetch" href="/xnui/assets/js/15.a1288d57.js"><link rel="prefetch" href="/xnui/assets/js/16.39bcbe0b.js"><link rel="prefetch" href="/xnui/assets/js/17.f8b7e0c3.js"><link rel="prefetch" href="/xnui/assets/js/19.b7c5e174.js"><link rel="prefetch" href="/xnui/assets/js/20.0ed3dae4.js"><link rel="prefetch" href="/xnui/assets/js/21.5d17fd47.js"><link rel="prefetch" href="/xnui/assets/js/22.df94f140.js"><link rel="prefetch" href="/xnui/assets/js/23.32ed5451.js"><link rel="prefetch" href="/xnui/assets/js/24.c51956b6.js"><link rel="prefetch" href="/xnui/assets/js/25.7bf02252.js"><link rel="prefetch" href="/xnui/assets/js/26.94f9dfde.js"><link rel="prefetch" href="/xnui/assets/js/27.25baebb4.js"><link rel="prefetch" href="/xnui/assets/js/3.d30d431f.js"><link rel="prefetch" href="/xnui/assets/js/4.fc0e364a.js"><link rel="prefetch" href="/xnui/assets/js/5.a96273d9.js"><link rel="prefetch" href="/xnui/assets/js/6.d5181251.js"><link rel="prefetch" href="/xnui/assets/js/7.44074f9d.js"><link rel="prefetch" href="/xnui/assets/js/8.e493b784.js"><link rel="prefetch" href="/xnui/assets/js/9.237d6444.js">
+    <link rel="stylesheet" href="/xnui/assets/css/0.styles.0796cc10.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/xnui/" class="home-link router-link-active"><!----> <span class="site-name">xnui</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/xnui/guide/steps.html" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/xnui/components/basic/button.html" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="/xnui/setting/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/xnui/plugins/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/xnui/themes/" class="nav-link">
+  主题
+</a></div><div class="nav-item"><a href="https://github.com/xnui" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/xnui/guide/steps.html" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/xnui/components/basic/button.html" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="/xnui/setting/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/xnui/plugins/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/xnui/themes/" class="nav-link">
+  主题
+</a></div><div class="nav-item"><a href="https://github.com/xnui" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>basic</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/xnui/components/basic/layout.html" class="sidebar-link">Layout 布局</a></li><li><a href="/xnui/components/basic/container.html" class="sidebar-link">Container 布局容器</a></li><li><a href="/xnui/components/basic/button.html" class="sidebar-link">Button 组件</a></li><li><a href="/xnui/components/basic/icon.html" class="sidebar-link">Icon 图标</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>form</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/xnui/components/form/input.html" class="sidebar-link">Input 输入框</a></li><li><a href="/xnui/components/form/switch.html" class="sidebar-link">Switch 开关</a></li><li><a href="/xnui/components/form/upload.html" class="sidebar-link">Upload 上传</a></li><li><a href="/xnui/components/form/datepicker.html" class="sidebar-link">DatePicker 日期选择器</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>data</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/xnui/components/data/progress.html" class="sidebar-link">Progress 进度条</a></li><li><a href="/xnui/components/data/table.html" aria-current="page" class="active sidebar-link">Table 表格</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/xnui/components/data/table.html#基础用法" class="sidebar-link">基础用法</a></li><li class="sidebar-sub-header"><a href="/xnui/components/data/table.html#带斑马纹表格" class="sidebar-link">带斑马纹表格</a></li><li class="sidebar-sub-header"><a href="/xnui/components/data/table.html#固定表头" class="sidebar-link">\# 固定表头</a></li><li class="sidebar-sub-header"><a href="/xnui/components/data/table.html#多选" class="sidebar-link">多选</a></li><li class="sidebar-sub-header"><a href="/xnui/components/data/table.html#排序" class="sidebar-link">排序</a></li><li class="sidebar-sub-header"><a href="/xnui/components/data/table.html#attributes" class="sidebar-link">Attributes</a></li><li class="sidebar-sub-header"><a href="/xnui/components/data/table.html#table-events" class="sidebar-link">\# Table Events</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>others</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/xnui/components/others/infinitescroll.html" class="sidebar-link">InfiniteScroll 无限滚动</a></li><li><a href="/xnui/components/others/popover.html" class="sidebar-link">Popover 弹出框</a></li><li><a href="/xnui/components/others/carousel.html" class="sidebar-link">Carousel 走马灯</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="table-表格"><a href="#table-表格" class="header-anchor">#</a> Table 表格</h1> <p>用于展示多条结构类似的数据，可对数据进行排序、筛选、对比或其他自定义操作。</p> <h2 id="基础用法"><a href="#基础用法" class="header-anchor">#</a> 基础用法</h2> <p>基础的表格展示用法。</p> <p>Name</p>  | Age
+ | Address
+ <p>------------- | ------------ | ------------------------
+John Brown | 18 | New York No. 1 Lake Park
+Jim Green | 24 | London No. 1 Lake Park
+Joe Black | 30 | Sydney No. 1 Lake Park
+Jon Snow | 26 | Ottawa No. 2 Lake Park</p> <div class="language-hljs extra-class"><pre class="language-text"><code>&lt;template&gt;
+    &lt;xn-table class=&quot;table&quot; :columns=&quot;columns1&quot; :data=&quot;data1&quot;&gt;&lt;/xn-table&gt;
+&lt;/template&gt;
+&lt;script&gt;
+export default {
+    data() {
+        return {
+            columns1: [
+                {
+                    title: &quot;Name&quot;,
+                    key: &quot;name&quot;
+                },
+                {
+                    title: &quot;Age&quot;,
+                    key: &quot;age&quot;,
+                },
+                {
+                    title: &quot;Address&quot;,
+                    key: &quot;address&quot;
+                }
+            ],
+            data1: [
+                {
+                    name: &quot;John Brown&quot;,
+                    age: 18,
+                    address: &quot;New York No. 1 Lake Park&quot;,
+                    date: &quot;2016-10-03&quot;
+                },
+                {
+                    name: &quot;Jim Green&quot;,
+                    age: 24,
+                    address: &quot;London No. 1 Lake Park&quot;,
+                    date: &quot;2016-10-01&quot;
+                },
+                {
+                    name: &quot;Joe Black&quot;,
+                    age: 30,
+                    address: &quot;Sydney No. 1 Lake Park&quot;,
+                    date: &quot;2016-10-02&quot;
+                },
+                {
+                    name: &quot;Jon Snow&quot;,
+                    age: 26,
+                    address: &quot;Ottawa No. 2 Lake Park&quot;,
+                    date: &quot;2016-10-04&quot;
+                },
+                {
+                    name: &quot;John Brown&quot;,
+                    age: 18,
+                    address: &quot;New York No. 1 Lake Park&quot;,
+                    date: &quot;2016-10-03&quot;
+                }
+            ]
+        };
+    }
+};
+&lt;/script&gt;
+</code></pre></div><p>__
+显示代码</p> <h2 id="带斑马纹表格"><a href="#带斑马纹表格" class="header-anchor">#</a> 带斑马纹表格</h2> <p>使用带斑马纹的表格，可以更容易区分出不同行的数据。</p> <p>Name</p>  | Age
+ | Address
+ <p>------------- | ------------ | ------------------------
+John Brown | 18 | New York No. 1 Lake Park
+Jim Green | 24 | London No. 1 Lake Park
+Joe Black | 30 | Sydney No. 1 Lake Park
+Jon Snow | 26 | Ottawa No. 2 Lake Park</p> <p>stripe 属性可以创建带斑马纹的表格。它接受一个 Boolean，默认为 false，设置为 true 即为启用。</p> <div class="language-hljs extra-class"><pre class="language-text"><code>&lt;xn-table class=&quot;table&quot; :columns=&quot;columns1&quot; :data=&quot;data1&quot; :stripe=&quot;true&quot;&gt;&lt;/xn-table&gt;
+</code></pre></div><p>__
+显示代码</p> <h2 id="固定表头"><a href="#固定表头" class="header-anchor">#</a> <a href="https://ui.fullstackjavascript.cn/components/data/table.html#%E5%9B%BA%E5%AE%9A%E8%A1%A8%E5%A4%B4" target="_blank" rel="noopener noreferrer">#<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 固定表头</h2> <p>纵向内容过多时，可选择固定表头。</p> <table><thead><tr><th>col 1</th> <th>col 2</th> <th>col 3</th></tr></thead> <tbody><tr><td>John Brown</td> <td>18</td> <td>New York No. 1 Lake Park</td></tr> <tr><td>Jim Green</td> <td>24</td> <td>London No. 1 Lake Park</td></tr> <tr><td>Joe Black</td> <td>30</td> <td>Sydney No. 1 Lake Park</td></tr> <tr><td>Jon Snow</td> <td>26</td> <td>Ottawa No. 2 Lake Park</td></tr> <tr><td>John Brown</td> <td>18</td> <td>New York No. 1 Lake Park</td></tr> <tr><td>Jim Green</td> <td>24</td> <td>London No. 1 Lake Park</td></tr> <tr><td>Joe Black</td> <td>30</td> <td>Sydney No. 1 Lake Park</td></tr> <tr><td>Jon Snow</td> <td>26</td> <td>Ottawa No. 2 Lake Park</td></tr></tbody></table> <p>Name</p>  | Age
+ | Address
+ <p>------------- | ------------ | ----------------</p> <p>只要在 xn-table 元素中定义了 height 属性，即可实现固定表头的表格，而不需要额外的代码。</p> <div class="language-hljs extra-class"><pre class="language-text"><code>&lt;xn-table class=&quot;table&quot; :columns=&quot;columns1&quot; :data=&quot;data1&quot; height=&quot;200px&quot;&gt;&lt;/xn-table&gt;
+</code></pre></div><p>__
+显示代码</p> <h2 id="多选"><a href="#多选" class="header-anchor">#</a> 多选</h2> <p>选择多行数据时使用 Checkbox。</p> <p><input type="checkbox"> | Name</p>  | Age
+ | Address
+ <p>----------------------- | ------------- | ------------ | ------------------------
+<input type="checkbox"> | John Brown | 18 | New York No. 1 Lake Park
+<input type="checkbox"> | Jim Green | 24 | London No. 1 Lake Park
+<input type="checkbox"> | Joe Black | 30 | Sydney No. 1 Lake Park
+<input type="checkbox"> | Jon Snow | 26 | Ottawa No. 2 Lake Park</p> <p>通过给 columns 数据设置一项，指定 type: 'selection'，即可自动开启多选功能。</p> <p>正确使用好以下事件，可以达到需要的效果：</p> <div class="language- extra-class"><pre class="language-text"><code>@on-select，选中某一项触发，返回值为 selection 和 row，分别为已选项和刚选择的项。
+
+@on-select-all，点击全选时触发，返回值为 selection，已选项。
+</code></pre></div><div class="language-hljs extra-class"><pre class="language-text"><code>&lt;xn-table
+    :columns=&quot;columns1&quot;
+    :data=&quot;data1&quot;
+    @on-select=&quot;hanldeSelect&quot;
+    @on-select-all=&quot;handleSelectAll&quot;
+&gt;&lt;/xn-table&gt;
+&lt;script&gt;
+export default {
+    data() {
+        return {
+            columns1: [
+                {
+                    type: &quot;selection&quot;,
+                    width: 60,
+                    align: &quot;center&quot;
+                },
+                {
+                    title: &quot;Name&quot;,
+                    key: &quot;name&quot;
+                },
+                {
+                    title: &quot;Age&quot;,
+                    key: &quot;age&quot;
+                },
+                {
+                    title: &quot;Address&quot;,
+                    key: &quot;address&quot;
+                }
+            ],
+            data1: [
+                {
+                    name: &quot;John Brown&quot;,
+                    age: 18,
+                    address: &quot;New York No. 1 Lake Park&quot;,
+                    date: &quot;2016-10-03&quot;
+                },
+                {
+                    name: &quot;Jim Green&quot;,
+                    age: 24,
+                    address: &quot;London No. 1 Lake Park&quot;,
+                    date: &quot;2016-10-01&quot;
+                },
+                {
+                    name: &quot;Joe Black&quot;,
+                    age: 30,
+                    address: &quot;Sydney No. 1 Lake Park&quot;,
+                    date: &quot;2016-10-02&quot;
+                },
+                {
+                    name: &quot;Jon Snow&quot;,
+                    age: 26,
+                    address: &quot;Ottawa No. 2 Lake Park&quot;,
+                    date: &quot;2016-10-04&quot;
+                }
+            ]
+        };
+    },
+    methods: {
+        hanldeSelect(selection, row) {
+            console.log(selection, row);
+        },
+        handleSelectAll(selection) {
+            console.log(selection);
+        }
+    }
+};
+&lt;/script&gt;
+</code></pre></div><p>__
+显示代码</p> <h2 id="排序"><a href="#排序" class="header-anchor">#</a> 排序</h2> <p>对表格进行排序，可快速查找或对比数据。</p> <p>Name</p>  | Age<svg aria-hidden="true" class="xn-icon active"><use xlink:href="#icon-up"></use></svg> <p><svg aria-hidden="true" class="xn-icon"><use xlink:href="#icon-down"></use></svg> | Address</p> <p>------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------
+John Brown | 18 | New York No. 1 Lake Park
+Jim Green | 24 | London No. 1 Lake Park
+Joe Black | 30 | Sydney No. 1 Lake Park
+Jon Snow | 26 | Ottawa No. 2 Lake Park</p> <p>在列中设置 sortable 属性即可实现以该列为基准的排序，接受一个 Boolean，默认为 false 可以通过 sortType 属性设置默认的排序顺序。可以使用 sortMethod 自定义的排序规则。如果需要后端排序，需将 sortable 设置为 custom，同时在 Table 上监听 on-sort-change 事件，在事件回调中可以获取当前排序的字段名和排序顺序，从而向接口请求排序后的表格数据。</p> <div class="language-hljs extra-class"><pre class="language-text"><code>&lt;xn-table  :columns=&quot;columns1&quot; :data=&quot;data1&quot; @on-sort-change=&quot;handleSort&quot; &gt;&lt;/xn-table&gt;
+&lt;script&gt;
+export default {
+  data() {
+    return {
+      columns1: [
+        {
+          title: &quot;Name&quot;,
+          key: &quot;name&quot;
+        },
+        {
+          title: &quot;Age&quot;,
+          key: &quot;age&quot;,
+          sortable: &quot;custom&quot;, // custom
+          sortType: &quot;asc&quot;,
+          sortMethod(a, b, type) {
+            return a.age - b.age;
+          }
+        },
+        {
+          title: &quot;Address&quot;,
+          key: &quot;address&quot;
+        }
+      ],
+      data1: [
+        {
+          name: &quot;John Brown&quot;,
+          age: 18,
+          address: &quot;New York No. 1 Lake Park&quot;,
+          date: &quot;2016-10-03&quot;
+        },
+        {
+          name: &quot;Jim Green&quot;,
+          age: 24,
+          address: &quot;London No. 1 Lake Park&quot;,
+          date: &quot;2016-10-01&quot;
+        },
+        {
+          name: &quot;Joe Black&quot;,
+          age: 30,
+          address: &quot;Sydney No. 1 Lake Park&quot;,
+          date: &quot;2016-10-02&quot;
+        },
+        {
+          name: &quot;Jon Snow&quot;,
+          age: 26,
+          address: &quot;Ottawa No. 2 Lake Park&quot;,
+          date: &quot;2016-10-04&quot;
+        }
+      ]
+    };
+  },
+  methods: {
+    handleSort({ column, type }) {
+      console.log(type);
+    }
+  }
+};
+&lt;/script&gt;
+</code></pre></div><p>__
+显示代码</p> <h2 id="attributes"><a href="#attributes" class="header-anchor">#</a> Attributes</h2> <table><thead><tr><th>参数</th> <th>说明</th> <th>类型</th> <th>可选值</th> <th>默认值</th></tr></thead> <tbody><tr><td>data</td> <td>显示的数据</td> <td>array</td> <td>—</td> <td>—</td></tr> <tr><td>columns</td> <td>表格列的配置描述，具体项见后文</td> <td>Array</td> <td>[]</td> <td>-</td></tr> <tr><td>height</td> <td>Table 的高度，默认为自动高度。如果 height 为 number 类型，单位 px；如果 height 为 string 类型，则这个高度会设置为 Table 的 style.height 的值，Table 的高度会受控于外部样式。</td> <td>string/number</td> <td>—</td> <td>—</td></tr> <tr><td>stripe</td> <td>是否为斑马纹 table</td> <td>boolean</td> <td>—</td> <td>false</td></tr> <tr><td>border</td> <td>是否带有纵向边框</td> <td>boolean</td> <td>—</td> <td>false</td></tr></tbody></table> <h2 id="table-events"><a href="#table-events" class="header-anchor">#</a> <a href="https://ui.fullstackjavascript.cn/components/data/table.html#table-events" target="_blank" rel="noopener noreferrer">#<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> Table Events</h2> <table><thead><tr><th>事件</th> <th>说明</th> <th>参数</th></tr></thead> <tbody><tr><td>on-select</td> <td>在多选模式下有效，选中某一项时触发</td> <td>selection：已选项数据；row：刚选择的项数据</td></tr> <tr><td>on-select-all</td> <td>在多选模式下有效，点击全选时触发</td> <td>selection：已选项数据</td></tr> <tr><td>on-sort-change</td> <td>排序时有效，当点击排序时触发</td> <td>column：当前列数据；key：排序依据的指标</td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/xnui/components/data/progress.html" class="prev">
+        Progress 进度条
+      </a></span> <span class="next"><a href="/xnui/components/others/infinitescroll.html">
+        InfiniteScroll 无限滚动
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/xnui/assets/js/app.e105d4ed.js" defer></script><script src="/xnui/assets/js/2.1c64c2ca.js" defer></script><script src="/xnui/assets/js/18.ed4c7410.js" defer></script>
+  </body>
+</html>

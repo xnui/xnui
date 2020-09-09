@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{690:function(t,n,e){"use strict";e.r(n);var i=e(21),s=Object(i.a)({},(function(){var t=this.$createElement,n=this._self._c||t;return n("div",[n("xn-button",{attrs:{icon:"pencil"}},[this._v("编辑")]),this._v(" "),n("xn-button",{attrs:{icon:"pencil"}})],1)}),[],!1,null,null,null);n.default=s.exports}}]);
