@@ -2,6 +2,7 @@ module.exports = {
   title: 'xnui', // 设置网站标题
   description: '搭建私有 ui 库 ing', // 描述
   dest: './build', // 设置输出目录
+  base: '/xnui/',
   port: 2113, // 端口
   themeConfig: {
     sidebarDepth: 1,
